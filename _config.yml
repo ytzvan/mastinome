@@ -1,0 +1,31 @@
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://ytzvan.github.io/
+baseurl: /
+title: Ytzvan Mastino
+author: Ytzvan Mastino
+description: Ytzvan Mastino Personal Website
+avatar: profile.jpg
+email: ytzvan@mastino.me
+github: ytzvan/mastinome # username
+twitter: ytzvan
+linkedin: ytzvan
+stackoverflow: ytzvan   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus 
+disqus: ytzvan
+google_analytics: UA-69391421-1
+
+
+# needed for travis-ci build
+exclude: [vendor]

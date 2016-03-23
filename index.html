@@ -1,0 +1,17 @@
+---
+layout: home
+---
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" style="width:200px;"src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>Hola! soy  <strong>{{ site.author }}</strong>, un desarrollador de software basado en Panamá.</h3>
+	  <h3>Me apasiona todo lo relacionado a Javascript y desarrollo en Node.js</h3>
+	  <h3>Organizo el meetup <a href="http://meetup.com/panamajs" target="_blank">PanamaJS</a> desde el 2013.</h3>
+	  <h3>Puedes ver mis <a href="{{ site.baseurl }}/projects.html"> proyectos</a> y las <a href="{{ site.baseurl }}/blog.html">conferencias </a> en las que he participado.</h3>
+	  <h3>Me encuentras en twiiter cómo <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> o puedes escribirme un <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>
